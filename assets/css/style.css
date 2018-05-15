@@ -1,0 +1,124 @@
+body {
+    background: white;
+    font: 'Arial', 'Helvetica', Helvetica, sans-serif;
+    
+}
+
+.top {
+    height: 57px;
+    width: 960px;
+    margin-left: 50px;
+    background: white;
+}
+
+.phungpham {
+    float: left;
+    padding: 20px 0;
+    font: 'Georgia', Times, times, Times New Roman, serif;
+    color: white;
+    background: green;
+    width: 150px;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+    color: grey;
+}
+
+.middle {
+    background-image: url("assets/images/vintage-concrete.png");
+    border-top: 1px solid grey;
+    height: 1000px;
+    background: rgb(219, 219, 219);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    background: black;
+    color: white;
+    width: 1000px;
+    text-align: center;
+    border-top: 3px solid green;
+}
+
+header {
+    padding: 20px 0;
+    margin: 10px 20px;
+    border-bottom: 1px solid grey;
+    color: green;
+    font-size: 20px;
+}
+
+.Main-Section {
+    width: 960px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: white;
+    
+}
+
+#profile-image {
+    float:left;
+    margin: 0 20px;
+}
+
+p {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.portfolio {
+    float: left;
+    width: 32.6%;
+    position: relative;
+    left: 30px;
+}
+
+
+.portfolio-picture {
+    border: 1px solid grey;
+    position: relative;
+    top: 20px;
+}
+
+.portfolio-name {
+    width: 252px;
+    text-align: center;
+    color: white;
+    background: green;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+
+
+form {
+    margin-left: 20px;
+}
+
+input {
+    width: 920px;
+}
+
+.message {
+    height: 80px;
+    width: 920px;
+}
+
+a:link {
+    color: grey;
+    background: transparent;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
