@@ -1,38 +1,39 @@
 body {
-    background: white;
+    background: lightgrey;
     font: 'Arial', 'Helvetica', Helvetica, sans-serif;
+    
     
 }
 
 .top {
-    height: 57px;
-    width: 960px;
-    margin-left: 50px;
+    height:54px;
+    width: 100%;
     background: white;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: -8px;
+   
 }
 
-.phungpham {
+h1 {
     float: left;
-    padding: 20px 0;
+    padding: 9px;
     font: 'Georgia', Times, times, Times New Roman, serif;
     color: white;
     background: green;
-    width: 150px;
-    text-align: center;
+    position: relative;
+    top: -22px;
+    left: 10%;
 }
 
 nav {
     float: right;
     padding: 20px;
     color: grey;
+    position: relative;
+    right: 10%;
 }
 
-.middle {
-    background-image: url("assets/images/vintage-concrete.png");
-    border-top: 1px solid grey;
-    height: 1000px;
-    background: rgb(219, 219, 219);
-}
 
 footer {
     position: fixed;
@@ -40,7 +41,7 @@ footer {
     padding: 20px;
     background: black;
     color: white;
-    width: 1000px;
+    width: 100%;
     text-align: center;
     border-top: 3px solid green;
 }
@@ -54,18 +55,18 @@ header {
 }
 
 .Main-Section {
-    width: 960px;
-    height: 500px;
-    margin-left: 50px;
-    margin-top: 20px;
+    width: 80%;
+    height: 900px;
+    margin: 65px 10%;
     background: white;
     
 }
 
 #profile-image {
-    float:left;
-    margin: 0 20px;
+    float: left;
+    margin: 5px 20px;
 }
+
 
 p {
     margin: 0 20px;
@@ -82,39 +83,45 @@ p {
 
 .portfolio-picture {
     border: 1px solid grey;
-    position: relative;
-    top: 20px;
+    margin: 20px 20px;
+   
 }
 
 .portfolio-name {
-    width: 252px;
+    padding: 5px 50px;
     text-align: center;
     color: white;
     background: green;
-    font-size: 20px;
     position: relative;
-    top: -25px;
+    top: -80px;
+    left: 20px;
+    
+    
 }
 
 
 form {
-    margin-left: 20px;
+    margin: 20px 20%;
+ 
 }
 
 input {
-    width: 920px;
+    width: 60%;
 }
 
 .message {
-    height: 80px;
-    width: 920px;
+    height: 100px;
+    width: 60%;
+}
+
+#submit {
+    width: 60%;
 }
 
 a:link {
     color: grey;
     background: transparent;
     text-decoration: none;
-
 }
 
 a:hover {
