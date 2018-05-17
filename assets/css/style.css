@@ -3,15 +3,18 @@ body {
     font: 'Arial', 'Helvetica', Helvetica, sans-serif;
     
     
+    
 }
 
 .top {
     height:54px;
     width: 100%;
     background: white;
-    border-bottom: 1px solid black;
-    position: fixed;
+    border-bottom: 1px solid grey;
+    position: relative;
     top: -8px;
+    
+    
    
 }
 
@@ -34,32 +37,21 @@ nav {
     right: 10%;
 }
 
-
-footer {
-    position: fixed;
-    bottom: 0;
-    padding: 20px;
-    background: black;
-    color: white;
-    width: 100%;
-    text-align: center;
-    border-top: 3px solid green;
+.Main-Section {
+    width: 80%;
+    height: 900px;
+    margin: 0 10%;
+    background: white;
+    
 }
 
 header {
-    padding: 20px 0;
+    padding: 20px 20px;
     margin: 10px 20px;
     border-bottom: 1px solid grey;
     color: green;
     font-size: 20px;
-}
-
-.Main-Section {
-    width: 80%;
-    height: 900px;
-    margin: 65px 10%;
-    background: white;
-    
+        
 }
 
 #profile-image {
@@ -95,27 +87,30 @@ p {
     position: relative;
     top: -80px;
     left: 20px;
-    
-    
+     
 }
 
 
 form {
-    margin: 20px 20%;
- 
+    position: absolute;
+    left: 30%;
+    right: 40%;
+    
 }
 
 input {
-    width: 60%;
+    width: 100%;
 }
 
 .message {
     height: 100px;
-    width: 60%;
+    width: 100%;
 }
 
 #submit {
-    width: 60%;
+    width:30%;
+    position: absolute;
+    left: 35%;
 }
 
 a:link {
@@ -128,4 +123,15 @@ a:hover {
     color: green;
     background-color: transparent;
     text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid green;
 }
